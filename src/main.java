@@ -7,5 +7,17 @@ public class main {
                 System.out.println("z=" + z);
             }
         }
+        System.out.println("Hello");
+        int c=1;
+        while(c<=10) {
+            int x=c%2;
+            if (x<1) {
+            }
+            else {
+                System.out.println("c=" + c);
+            }
+                c++;
+            }
+
+        }
     }
-}
