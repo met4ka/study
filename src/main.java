@@ -1,9 +1,11 @@
 public class main {
     public static void main(String [] args) {
         System.out.println("Hello");
-        for(int x=1; x<=20; x++){
-            int z=x/2;
-            System.out.println("X="+z);
+        for(int z=1; z<=10; z++) {
+            int x = z%2;
+            if (x<1) {
+                System.out.println("z=" + z);
+            }
         }
     }
 }
